@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <foreignObject width="100%" height="100%">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        
+<script>(function(){
+const XHTML_NS="http://www.w3.org/1999/xhtml";
+const root=document.querySelector("foreignObject").firstElementChild;
+const originalCreateElement=document.createElement.bind(document);
+const originalCreateElementNS=document.createElementNS.bind(document);
+Object.defineProperty(document,"head",{
+get(){return root.querySelector("head")},
+configurable:true
+});
+Object.defineProperty(document,"body",{
+get(){return root.querySelector("body")},
+configurable:true
+});
+document.createElement=function(tagName,options){
+if(typeof tagName==="string"){
+return originalCreateElementNS(XHTML_NS,tagName,options);
+}
+return originalCreateElement(tagName,options);
+};
+document.createElementNS=function(namespaceURI,qualifiedName,options){
+if(!namespaceURI||namespaceURI===XHTML_NS){
+return originalCreateElementNS(XHTML_NS,qualifiedName,options);
+}
+return originalCreateElementNS(namespaceURI,qualifiedName,options);
+};
+})();</script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astral</title>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-1FPH3XRMFG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1FPH3XRMFG');
+    </script>
+    <script>(function(){import("./A720fkaM.js");})();</script>
+    <script>(function(){import("./assets/mR6jyM8N.js");})();</script>
+    <link rel="modulepreload" crossorigin="anonymous" href="./assets/bhaYpbTr.js" />
+    <link rel="modulepreload" crossorigin="anonymous" href="./assets/DBO0DkKc.js" />
+    <link rel="stylesheet" crossorigin="anonymous" href="./assets/DhaYw1jV.css" />
+  
+        <style><![CDATA[
+html,body{
+margin:0;
+width:100%;
+height:100%;
+overflow:hidden;
+}
+foreignObject{
+overflow:visible;
+}
+#root{
+width:100%;
+height:100%;
+}
+        ]]></style>
+      </head>
+      <body>
+        
+    <div id="root"></div>
+  
+      </body>
+    </html>
+  </foreignObject>
+</svg>
