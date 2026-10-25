@@ -4,7 +4,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         
-<script>(function(){
+<script><![CDATA[(function(){
 const XHTML_NS="http://www.w3.org/1999/xhtml";
 const root=document.querySelector("foreignObject").firstElementChild;
 const originalCreateElement=document.createElement.bind(document);
@@ -29,23 +29,23 @@ return originalCreateElementNS(XHTML_NS,qualifiedName,options);
 }
 return originalCreateElementNS(namespaceURI,qualifiedName,options);
 };
-})();</script>
+})();]]></script>
 
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astral</title>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-1FPH3XRMFG"></script>
-    <script>
+    <script><![CDATA[
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-1FPH3XRMFG');
-    </script>
-        <script>(function(){import("./assets/CNrb7T8D.js");})();</script>
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/Dz-rWp17.js" />
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/yQ5MK2Fc.js" />
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/0Mtng4mV.js" />
+    ]]></script>
+        <script><![CDATA[(function(){import("./assets/DopAucQe.js");})();]]></script>
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/KY6rCRgp.js" />
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/BPnonqQN.js" />
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/DJYNa1zG.js" />
         <link rel="stylesheet" crossorigin="anonymous" href="./assets/DGXX_HD2.css" />
       
         <style><![CDATA[
@@ -172,7 +172,7 @@ p {
   <p>Learn at your own pace. Clear, simple lessons in math, science, and writing, made by real teachers.</p>
   <a class="cta" href="#">Get Started</a>
 </main>
-</div><div id="Cz9">3s</div></template></div><script>(()=>{const h=document.getElementById("Kq7mZt3x");let seen=false;try{seen=sessionStorage.getItem("Aw2x")==="1"}catch{}if(seen){h.remove();return}try{sessionStorage.setItem("Aw2x","1")}catch{}document.documentElement.style.overflow="hidden";const c=h.shadowRoot.getElementById("Cz9");let n=3;const t=setInterval(()=>{n-=1;if(n<=0){clearInterval(t);h.style.opacity="0";document.documentElement.style.overflow="";setTimeout(()=>h.remove(),360);return}c.textContent=n+"s"},1e3)})();</script><div id="root"></div>
+</div><div id="Cz9">3s</div></template></div><script><![CDATA[(function(){var h=document.currentScript.previousElementSibling;var t=h&&h.querySelector("template[shadowrootmode]");if(t){h.attachShadow({mode:t.getAttribute("shadowrootmode")==="closed"?"closed":"open"}).appendChild(t.content);t.remove()}})();]]></script><script><![CDATA[(()=>{const h=document.getElementById("Kq7mZt3x");let seen=false;try{seen=sessionStorage.getItem("Aw2x")==="1"}catch{}if(seen){h.remove();return}try{sessionStorage.setItem("Aw2x","1")}catch{}document.documentElement.style.overflow="hidden";const c=h.shadowRoot.getElementById("Cz9");let n=3;const t=setInterval(()=>{n-=1;if(n<=0){clearInterval(t);h.style.opacity="0";document.documentElement.style.overflow="";setTimeout(()=>h.remove(),360);return}c.textContent=n+"s"},1e3)})();]]></script><div id="root"></div>
   
       </body>
     </html>
