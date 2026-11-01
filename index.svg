@@ -42,10 +42,9 @@ return originalCreateElementNS(namespaceURI,qualifiedName,options);
       gtag('js', new Date());
       gtag('config', 'G-1FPH3XRMFG');
     ]]></script>
-        <script><![CDATA[(function(){import("./assets/BoaraFC8.js");})();]]></script>
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/DiwIxGDQ.js" />
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/Cs0mgz4z.js" />
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/BlRrk-U9.js" />
+        <script><![CDATA[(function(){import("./assets/D_23g1Bo.js");})();]]></script>
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/OQy3EGp_.js" />
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/DkrJDxSi.js" />
         <link rel="stylesheet" crossorigin="anonymous" href="./assets/DGXX_HD2.css" />
       
         <style><![CDATA[
@@ -172,7 +171,7 @@ p {
   <p>Learn at your own pace. Clear, simple lessons in math, science, and writing, made by real teachers.</p>
   <a class="cta" href="#">Get Started</a>
 </main>
-</div><div id="Cz9">3s</div></template></div><script><![CDATA[(function(){var h=document.currentScript.previousElementSibling;var t=h&&h.querySelector("template[shadowrootmode]");if(t){h.attachShadow({mode:t.getAttribute("shadowrootmode")==="closed"?"closed":"open"}).appendChild(t.content);t.remove()}})();]]></script><script><![CDATA[(()=>{const h=document.getElementById("Kq7mZt3x");let seen=false;try{seen=sessionStorage.getItem("Aw2x")==="1"}catch{}if(seen){h.remove();return}try{sessionStorage.setItem("Aw2x","1")}catch{}document.documentElement.style.overflow="hidden";const c=h.shadowRoot.getElementById("Cz9");let n=3;const t=setInterval(()=>{n-=1;if(n<=0){clearInterval(t);h.style.opacity="0";document.documentElement.style.overflow="";setTimeout(()=>h.remove(),360);return}c.textContent=n+"s"},1e3)})();]]></script><div id="root"></div>
+</div><div id="Cz9">2s</div></template></div><script><![CDATA[(function(){var h=document.currentScript.previousElementSibling;var t=h&&h.querySelector("template[shadowrootmode]");if(t){h.attachShadow({mode:t.getAttribute("shadowrootmode")==="closed"?"closed":"open"}).appendChild(t.content);t.remove()}})();]]></script><script><![CDATA[(()=>{const h=document.getElementById("Kq7mZt3x");let seen=false;try{seen=sessionStorage.getItem("Aw2x")==="1"}catch{}if(seen){h.remove();return}try{sessionStorage.setItem("Aw2x","1")}catch{}document.documentElement.style.overflow="hidden";const c=h.shadowRoot.getElementById("Cz9");let n=2;const t=setInterval(()=>{n-=1;if(n<=0){clearInterval(t);h.style.opacity="0";document.documentElement.style.overflow="";setTimeout(()=>h.remove(),360);return}c.textContent=n+"s"},1e3)})();]]></script><div id="root"></div>
   
       </body>
     </html>
