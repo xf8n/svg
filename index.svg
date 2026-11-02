@@ -21,6 +21,10 @@ Object.defineProperty(document,"body",{
 get(){return root.querySelector("body")},
 configurable:true
 });
+Object.defineProperty(document,"getElementById",{
+value(id){return root.querySelector('[id="'+id+'"]')},
+configurable:true
+});
 document.createElement=function(tagName,options){
 if(typeof tagName==="string"){
 return originalCreateElementNS(XHTML_NS,tagName,options);
@@ -46,9 +50,9 @@ return originalCreateElementNS(namespaceURI,qualifiedName,options);
       gtag('js', new Date());
       gtag('config', 'G-1FPH3XRMFG');
     ]]></script>
-        <script><![CDATA[(function(){import("./assets/CBbuXeNz.js");})();]]></script>
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/X0GTNzbE.js" />
-        <link rel="modulepreload" crossorigin="anonymous" href="./assets/CLJWUx3U.js" />
+        <script><![CDATA[(function(){import("./assets/BJkDRJkU.js");})();]]></script>
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/CmUHb2HR.js" />
+        <link rel="modulepreload" crossorigin="anonymous" href="./assets/peESX1GF.js" />
         <link rel="stylesheet" crossorigin="anonymous" href="./assets/CcPfQmKy.css" />
       
         <style><![CDATA[
